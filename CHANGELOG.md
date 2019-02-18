@@ -1,3 +1,6 @@
+## 3.5.0
+
+* relax stdlib requirement
 
 ## 3.4.0
 
@@ -117,5 +120,3 @@ Since procs are not actually needed in this title pattern they have been removed
 
 * Fix: #25 - purge_ports for firewalld_zone now works as expected
 * BREAK: port parameter for firewalld_port now only accepts a port, not a hash as previously documented.
-
-
